@@ -18,19 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\15Puzzle\Main.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\15Puzzle\Print.cpp" />
-    <ClCompile Include="Game Checker.cpp" />
-    <ClCompile Include="Identification.cpp" />
-    <ClCompile Include="Movement.cpp" />
-    <ClCompile Include="Random.cpp" />
-    <ClCompile Include="Time_h.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{FD54CF1E-7FD3-4B75-96F2-31106E464720}</ProjectGuid>
-    <RootNamespace>My15Puzzle</RootNamespace>
+    <ProjectGuid>{4F4BCD1F-664C-4D6C-8350-9A9B04E9D7D1}</ProjectGuid>
+    <RootNamespace>FifteenPuzzle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,6 +114,15 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameChecker.cpp" />
+    <ClCompile Include="Identification.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Movement.cpp" />
+    <ClCompile Include="Print.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Time.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
